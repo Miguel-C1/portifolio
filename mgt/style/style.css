@@ -1,0 +1,44 @@
+
+.divLogo{
+    display: inline-block;
+    width: 25%;
+
+}
+
+.divMenu{
+    display: inline-block;
+    width: 25%;
+  
+    float: right;
+    align-items: center;
+}
+
+@media (max-width: 400px) {
+    .divLogo{
+        display: block;
+        width: 100%;
+    }
+    
+    .divMenu{
+        display: block;
+        width: 100%;
+   
+    }
+}
+
+.margemNav{
+    float: right;
+    
+}
+
+.margemTexto{
+    margin-top: 30px;
+}
+
+.rodape{
+    text-align: center;
+    align-items: center;
+    margin-top: 25%;
+    font-weight: bold;
+    
+}
