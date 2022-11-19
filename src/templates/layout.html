@@ -1,0 +1,46 @@
+{% block html %}
+<!DOCTYPE html>
+<html lang="en">
+{% block head %}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style/style.css">
+    <title>Porifólio</title>
+</head>
+{% endblock head %}
+{% block body %}
+<body>
+   {% block navBar %}
+   <header>
+        <nav>
+            <div class="logo">
+                <a href="/" ><img src="../static/img/Logo.png"></a>
+            </div>
+            <div class="menuHamburguer">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <ul class="nav-lista">
+                <li><a href="">Home</a></li>
+                <li><a href="">Contato</a></li>
+                <li><a href="">Experiencias e Formacoes</a></li>
+                <li><a href="">Projetos</a></li>
+            </ul>
+        </nav>
+</header>
+{% endblock navBar %}
+
+{% block main %}
+<main>
+
+</main>
+{% endblock main %}
+   <script src="../static/scripts/menu.js"></script>
+</body>
+{% endblock body %}
+
+</html>
+{% endblock html %}
