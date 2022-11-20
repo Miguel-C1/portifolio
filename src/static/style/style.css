@@ -62,20 +62,21 @@ nav{
     display: none;
 }
 
-/* FIM DO MENU */
-
-  /* Change the link color on hover */
-  li a:hover {
+li a:hover {
     background-color: whitesmoke;
     color: black;
   }
 
+/* FIM DO MENU */
+ 
 .divLogo{
     display: inline-block;
     width: 25%;
 
 }
 
+
+/* RESPONSIVIDADE MENU */
 @media (max-width: 999px){
 
     body {
@@ -90,6 +91,7 @@ nav{
         background-color: #555;
         flex-direction: column;
         align-items: center;
+        font-size: 80%;
         justify-content: space-around;
         transform: translateX(100%);
     }
@@ -102,4 +104,29 @@ nav{
     .nav-lista.active{
         transform: translateX(0);
     }
+}
+
+/* FIM RESPONSIVIDADE MENU */
+
+/* FOTO */
+.minhaFoto{
+    width: 300px;
+    height: 400px;
+    filter: grayscale(100%);
+}
+
+body {
+    background-color: rgb(242, 242, 242);
+}
+
+section {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+section a {
+    color: rgb(15, 4, 225);
+}
+
+section a:hover {
+    color: rgb(104, 101, 180);
 }

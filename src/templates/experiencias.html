@@ -1,53 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../static/style/style.css">
-    <title>Experiências</title>
-</head>
-<body class="margem" background="img/fundo.jpg">
-    <header>
-        <div class="divLogo">
-            [LOGO]
-        </div>
-        <div class="divMenu">
-              <a href="index.html">Home</a> <span>|</span>
-              <a href="experiencias.html">Experiências e Formações</a> <span>|</span>
-              <a href="contato.html">Contato</a><span>|</span>
-              <a href="projetos.html">Projetos</a>
-        </div>
-    </header>
+{% extends "layout.html" %}
+
+
+{% block main %}
     <span>
+       <section>
         <h2>
             FORMAÇÕES
         </h2>
         <ul>
-            <li>Formação 1</li>
-            <li>Formação 2</li>
-            <li>Formação 3</li>
+            <li>Técnico de informática</li>
         </ul>
         <dl>
             <dt><h3>Experiências FLL</h3></dt>
             <dd>
-                Descrição da Experiência
+                Participei de um time de robótica que participa de um campeonato chamado FLL(FIRST LEGO LEAGUE) onde os integrantes do time precisam construir um robô feito de Lego que irá resolver desafios no tapete de desafios.
             </dd>
             <dt><h3>Experiências Técnico</h3></dt>
             <dd>
-                Descrição da Experiência
+                Cursei um técnico em informática na ETEP e fiz alguns projetos academicos dentro da instituição.
             </dd>
             <dt><h3>Experiências FATEC</h3></dt>
             <dd>
-                Descrição da Experiência
+                Estou atualmente cursando o curso DSM na FATEC que é necessário realizar as APIs, que são projetos que resolvem algum problema apresentado por uma empresa de fora.
             </dd>
             <dt><h3>Experiências de Trabalho</h3></dt>
             <dd>
-                Descrição da Experiência
+                Já trabalhei em duas empresas, a ACTI, uma empresa que presta serviços de ERP por software e atualmente estou trabalhando na empresa que presta serviços de Engenharia de Software chamada SOFTWILLIANS.
             </dd>
         </dl>
-        
+    </section>        
     </span>
+{% endblock main %}
 
-</body>
-</html>
