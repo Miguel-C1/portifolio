@@ -52,3 +52,12 @@
 ```console
     pip install -r requirements.txt
 ```
+
+6. Executando a aplicação
+
+- Navegue até a pasta src dentro dessa pasta raíz através da linha de comando e execute o arquivo 'app.py'.
+
+```console
+    cd src
+    python app.py
+```
